@@ -1,0 +1,50 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    padding-top: 5%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#welcome p
+{
+    font-size: 20px;
+}
+
+#questions-container
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#questions-container ol
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+#questions-container ol li
+{
+    width: 25%;
+}
+
+#questions-container ol li:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+#questions-container ol li:active
+{
+    border: solid gray 5px;
+}
+
+#highscores-display div
+{
+    padding: 5px;
+}
